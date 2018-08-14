@@ -38,7 +38,7 @@ case $NODE_SERVER in
 esac
 
 elif [ $GROUP -eq X ]
-
+then
 	printf 'XX XX-XXX\nX) XX-XXX\nX) XX-XXX\nX) XXX-XXX\nX) XXX-KSA\nX) XXX-XXX\nX) XXX-XXX\nX) XXX-XXX\n'
 	read XXX_SERVER
 
@@ -71,7 +71,7 @@ case $XXX_SERVER in
 esac
 
 elif [ $GROUP -eq X ]
-
+then
 	printf 'XX XXX-XXX-XXX\n'
 	read XXX_SERVER
 
